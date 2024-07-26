@@ -1,0 +1,48 @@
+name: currency_converter
+description: 'A new Flutter project.'
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+  # state management
+  flutter_bloc: ^8.1.6
+
+  # comparing dart objects
+  equatable: ^2.0.5
+
+  # service locator
+  get_it: ^7.7.0
+
+  # Database
+  floor: ^1.5.0
+
+  # make request to api
+  retrofit: ^4.1.0
+
+  # hooks
+  flutter_hooks: ^0.20.5
+
+  # getting country flags
+  country_flags: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  retrofit_generator: ^8.1.2
+  floor_generator: ^1.5.0
+  build_runner: ^2.4.11
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
